@@ -1,17 +1,12 @@
-# Libraries
-*.lvlibp
-*.llb
+# Rust build output
+target/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# IDE files
+.vscode/
+.idea/
+.dragon/
 
-# Executables
-*.exe
-
-# Metadata
-*.aliases
+# LabVIEW local files
 *.lvlps
-.cache/
+*.aliases
+*.framework/
